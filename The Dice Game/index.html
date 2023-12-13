@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The dice game</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="dice6.png">
+</head>
+  
+<body>
+    <div class="container">
+      <h1>THE DICE GAME</h1>
+
+      <div class="dice">
+        <h1 id="result">New Game</h1>
+        <img class="one" src="dice6.png" alt="">
+        <img class="two" src="dice6.png" alt="">
+      </div>
+      
+      <div class="buttons">
+        <div class="btn">
+          <button onclick="startGame()"></button>
+        </div>
+  
+        <div class="reset">
+          <button onclick="resetGame()"></button>
+        </div>
+
+        <div class="score">
+          <button>
+            <img onclick="ShowScore()" src="score emoji.png" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

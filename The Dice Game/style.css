@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 63, 96);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 3rem;
+}
+
+.container h1{
+    margin:11px;
+    padding: 0;
+}
+
+.dice h1 {
+    font-size: 4rem;
+    font-family: 'Whisper', cursive;
+}
+
+.dice img{
+    width: 13rem;
+}
+
+.one{
+    margin-right: 50px;
+}
+
+.btn{
+    margin-top: 30px;
+    background: linear-gradient(360deg, orange, transparent);
+    width: 146px;
+    height: 146px;
+    background-color: orange;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.btn button {
+    cursor: pointer;
+    width: 4rem;
+    height: 5rem;
+    clip-path: polygon(0 0, 0 100%, 100% 50%);
+    background-color: white;
+}
+
+.reset button{
+    margin-top: 40px;
+    margin-left: 30px;
+    width: 146px;
+    height: 146px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 6.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reset button::before {
+    content: '\21BA';
+    font-family: 'Arial', sans-serif;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+
+.score{
+    margin-top: 40px;
+}
+
+.score button{
+    cursor: pointer;
+    width: 8rem;
+    height: 8rem;
+    border: none;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.score button img{
+    width: 8rem;
+    height: 8rem;
+    background-color: yellow;
+    border-radius: 50%;
+}
